@@ -55,6 +55,13 @@
                 <version>${scala.version}</version>
             </dependency>
             <!-- END -->
+            <!--添加Spring boot热部署依赖 BEGIN-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-devtools</artifactId>
+                <optional>true</optional>
+            </dependency>
+            <!-- END -->
         </dependencies>
     </dependencyManagement>
 
